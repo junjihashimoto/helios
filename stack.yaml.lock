@@ -3,10 +3,17 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: memcache-haskell-0.0.10.1@sha256:080e54f0186ecbb5d03500378352047affe6bb758568532095ea2e09bee60d7b,3117
+    pantry-tree:
+      size: 1077
+      sha256: 81947ac1820a9d1464afe3fa634cf440ffe28efeb08c816aa5fc8fac717bcf9c
+  original:
+    hackage: memcache-haskell-0.0.10.1
 snapshots:
 - completed:
-    size: 488576
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/15/0.yaml
-    sha256: e4b6a87b47ec1cf63a7f1a0884a3b276fce2b0d174a10e8753c4f618e7983568
-  original: lts-15.0
+    size: 523700
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/14/7.yaml
+    sha256: 8e3f3c894be74d71fa4bf085e0a8baae7e4d7622d07ea31a52736b80f8b9bb1a
+  original: lts-14.7
